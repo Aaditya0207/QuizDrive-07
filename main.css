@@ -1,0 +1,69 @@
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  font-family: sans-serif;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  align-items: center;
+}
+
+.main {
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.main h2 {
+  font-size: 40px;
+  font-family: sans-serif;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px black;
+}
+
+.playernamebox,
+.gamenamebox {
+  text-align: center;
+}
+
+.playernamebox input,
+.gamenamebox input {
+  width: 30vh;
+  height: 28px;
+  border-radius: 20px;
+  border: 1px solid black;
+  font-size: 24px;
+  font-family: cursive;
+  padding: 0 10px;
+}
+
+.rules {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.4;
+}
+
+.rules li {
+  margin-bottom: 20px;
+}
+
+button {
+  margin-top: 20px;
+}
+
+#rulestext {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.main {
+  width: 600px;
+}
+@media (max-width:360px){
+  .main {
+    width: 349px;
+}
+}
